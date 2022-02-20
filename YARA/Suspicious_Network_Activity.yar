@@ -12,6 +12,7 @@ rule contacts_fileshare_or_CDN {
         $a6 = "anonfiles.com" ascii wide
         $a7 = "sendspace.com/file/" ascii wide
         $a8 = "fex.net/get/" ascii wide
+        $a9 = "mediafire.com/file/" ascii wide //suggested by @Ledtech3
     condition:
         any of $a
 }
